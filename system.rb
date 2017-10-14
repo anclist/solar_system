@@ -14,6 +14,9 @@ class System
       total += body.mass
     end
     total
+    # @bodies.sum do |body|
+    #   body.mass
+    # end
   end
 
 end
